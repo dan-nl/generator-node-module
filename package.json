@@ -1,0 +1,32 @@
+{
+  "name": "generator-node-module",
+  "version": "0.0.0",
+  "description": "yeoman generator that creates a node module project",
+  "author": "dan entous",
+  "license": "MIT",
+  "main": "app/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dan-nl/generator-node-module.git"
+  },
+  "keywords": [
+    "yeoman-generator",
+    "generator"
+  ],
+  "bugs": {
+    "url": "https://github.com/dan-nl/generator-node-module/issues"
+  },
+  "homepage": "https://github.com/dan-nl/generator-node-module#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "generator-eslint-config": "git://github.com/dan-nl/generator-eslint-config.git",
+    "generator-license": "git://github.com/dan-nl/generator-license.git",
+    "generator-package-json": "git://github.com/dan-nl/generator-package-json.git",
+    "generator-readme": "git://github.com/dan-nl/generator-readme.git",
+    "generator-travis": "git://github.com/dan-nl/generator-travis.git",
+    "yeoman-generator": "0.24.1",
+    "yeoman-helpers": "git://github.com/dan-nl/yeoman-helpers.git"
+  }
+}
