@@ -3,10 +3,10 @@
 /**
  * module dependencies
  */
-var initializingHelper = require( 'yeoman-helpers' ).initializingHelper;
+var addPrompts = require( 'yeoman-prompting-helpers' ).addPrompts;
 
 function initializing() {
-  initializingHelper( this );
+  this.options.prompts = addPrompts( this );
 
   this.composeWith(
     'eslint-config',
