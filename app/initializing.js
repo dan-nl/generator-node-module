@@ -38,6 +38,12 @@ function initializing() {
   );
 
   this.composeWith(
+    'coveralls',
+    { options: { PromptAnswers: this.options.PromptAnswers } },
+    { local: require.resolve( 'generator-coveralls' ) }
+  );
+
+  this.composeWith(
     'eslint-config',
     {},
     { local: require.resolve( 'generator-eslint-config' ) }

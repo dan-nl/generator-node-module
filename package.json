@@ -25,6 +25,7 @@
     "eslint": "eslint ."
   },
   "dependencies": {
+    "generator-coveralls": "git://github.com/dan-nl/generator-coveralls.git",
     "generator-eslint-config": "git://github.com/dan-nl/generator-eslint-config.git",
     "generator-license": "git://github.com/dan-nl/generator-license.git",
     "generator-npm-init": "git://github.com/dan-nl/generator-npm-init.git",
