@@ -33,6 +33,7 @@
     "generator-tap": "git://github.com/dan-nl/generator-tap.git",
     "generator-travis": "git://github.com/dan-nl/generator-travis.git",
     "yeoman-generator": "0.24.1",
+    "yeoman-helpers": "git://github.com/dan-nl/yeoman-helpers.git",
     "yeoman-prompting-helpers": "git://github.com/dan-nl/yeoman-prompting-helpers.git"
   },
   "devDependencies": {
