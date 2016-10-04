@@ -14,6 +14,8 @@ var intro = [
   '  * install coveralls',
   '  * install eslint-config',
   '  * create .travis.yml',
+  '',
+  'you can skip any of these tasks when prompted below',
   ''
 ].join( '\n' );
 
