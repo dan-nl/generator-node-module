@@ -8,7 +8,6 @@
 var PromptAnswers = require( 'yeoman-prompting-helpers' ).PromptAnswers;
 
 /**
- * @property {Base} this
  * @returns {undefined}
  */
 function initializing() {
