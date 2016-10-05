@@ -1,7 +1,7 @@
 # generator-node-module
 [![Dependency Status][david-dm-image]][david-dm-url] [![Dev Dependency Status][david-dm-dev-image]][david-dm-dev-url] [![NSP Status][nsp-image]][nsp-url]
 
-yeoman generator that creates a node module project by running the following tasks:
+[yeoman generator][yeoman-getting-started-url] that creates a node module project by running the following tasks:
 
 * [npm init][generator-npm-init-url]
 * [create license.txt][generator-license-url]
@@ -38,3 +38,4 @@ yo node-module
 [mit-license]: https://raw.githubusercontent.com/dan-nl/generator-module/master/license.txt
 [nsp-image]: https://nodesecurity.io/orgs/githubdan-nl/projects/aa5eea46-090e-45f4-8878-ded6ccf2c357/badge
 [nsp-url]: https://nodesecurity.io/orgs/githubdan-nl/projects/aa5eea46-090e-45f4-8878-ded6ccf2c357
+[yeoman-getting-started-url]: http://yeoman.io/authoring/index.html
