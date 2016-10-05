@@ -8,7 +8,7 @@
 var displayGeneratorIntro = require( 'yeoman-helpers' ).displayGeneratorIntro;
 var generator_ascii_art = require( './helpers/ascii-art' );
 var generator_intro_text = require( './helpers/intro-text' );
-var getGeneratorPrompts = require( './helpers/get-generator-prompts' );
+var prompts = require( './helpers/prompt-create-node-module' );
 var promptingHelper = require( 'yeoman-prompting-helpers' ).promptingHelper;
 
 /**
@@ -31,10 +31,10 @@ function prompting() {
   /**
    * @property {Function} then
    */
-  return promptingHelper( this, getGeneratorPrompts() )
+  return promptingHelper( this, prompts )
     .then(
       function () {
-        if ( !generator.options.PromptAnswers.get( 'continue-node-module-tasks' ) ) {
+        if ( !generator.options.PromptAnswers.get( 'create-node-module' ) ) {
           process.exit( 0 );
         }
       }
