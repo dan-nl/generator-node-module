@@ -1,6 +1,6 @@
 {
   "name": "generator-node-module",
-  "version": "0.7.1",
+  "version": "0.8.0",
   "description": "yeoman generator that creates a node module project",
   "author": "dan entous",
   "license": "MIT",
