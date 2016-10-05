@@ -1,7 +1,5 @@
-# generator-module
-yeoman generator that creates a node module project
-
-the following generators/tasks are run all though any of them can be skipped
+# generator-node-module
+yeoman generator that creates a node module project by running the following tasks:
 
 * [npm init][generator-npm-init-url]
 * [create license.txt][generator-license-url]
@@ -10,6 +8,16 @@ the following generators/tasks are run all though any of them can be skipped
 * [install coveralls][generator-coveralls-url]
 * [install eslint-config][generator-eslint-config-url]
 * [create .travis.yml][generator-travis-url]
+
+## installation
+```bash
+npm install -g dan-nl/generator-node-module
+```
+
+## use
+```bash
+yo node-module
+```
 
 ## license
 [MIT License][mit-license]
